@@ -12,6 +12,9 @@ namespace CTATransit
 	partial class ArrivalViewController
 	{
 		[Outlet]
-		MonoTouch.UIKit.UITableView ArrivalTableView { get; set; }
+		MonoTouch.UIKit.UINavigationBar NavigationBar { get; set; }
+
+		[Outlet]
+		MonoTouch.UIKit.UIBarButtonItem RefreshButton { get; set; }
 	}
 }

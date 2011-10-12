@@ -14,7 +14,7 @@ namespace CTATransit
 	{
 		// class-level declarations
 		UIWindow window;
-		ArrivalViewController arrivalViewController;
+		ArrivalViewController avc;
 
 		//
 		// This method is invoked when the application has loaded and is ready to run. In this 
@@ -30,13 +30,12 @@ namespace CTATransit
 			
 			// If you have defined a view, add it here:
 			// window.AddSubview (navigationController.View);
+			avc = new ArrivalViewController();
+			
+			window.RootViewController = avc;
 			
 			// make the window visible
 			window.MakeKeyAndVisible ();
-			
-			arrivalViewController = new ArrivalViewController();
-			
-			this.window.AddSubview(arrivalViewController.View);
 			
 			return true;
 		}

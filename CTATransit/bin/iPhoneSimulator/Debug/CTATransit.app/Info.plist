@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>10K549</string>
+	<string>10J869</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
@@ -29,11 +29,11 @@
 	<key>DTPlatformName</key>
 	<string>iphonesimulator</string>
 	<key>DTSDKName</key>
-	<string>iphonesimulator5.0</string>
+	<string>iphonesimulator4.3</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>MinimumOSVersion</key>
-	<string>5.0</string>
+	<string>4.3</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv6</string>

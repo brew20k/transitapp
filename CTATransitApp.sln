@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CTATransit", "CTATransit\CTATransit.csproj", "{32BCAB8F-98F5-4E34-8B25-234195EE9675}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32BCAB8F-98F5-4E34-8B25-234195EE9675}.Debug|Any CPU.ActiveCfg = Debug|iPhoneSimulator
+		{32BCAB8F-98F5-4E34-8B25-234195EE9675}.Debug|Any CPU.Build.0 = Debug|iPhoneSimulator
+		{32BCAB8F-98F5-4E34-8B25-234195EE9675}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{32BCAB8F-98F5-4E34-8B25-234195EE9675}.Debug|iPhone.Build.0 = Debug|iPhone
+		{32BCAB8F-98F5-4E34-8B25-234195EE9675}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{32BCAB8F-98F5-4E34-8B25-234195EE9675}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{32BCAB8F-98F5-4E34-8B25-234195EE9675}.Release|Any CPU.ActiveCfg = Release|iPhoneSimulator
+		{32BCAB8F-98F5-4E34-8B25-234195EE9675}.Release|Any CPU.Build.0 = Release|iPhoneSimulator
+		{32BCAB8F-98F5-4E34-8B25-234195EE9675}.Release|iPhone.ActiveCfg = Release|iPhone
+		{32BCAB8F-98F5-4E34-8B25-234195EE9675}.Release|iPhone.Build.0 = Release|iPhone
+		{32BCAB8F-98F5-4E34-8B25-234195EE9675}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{32BCAB8F-98F5-4E34-8B25-234195EE9675}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = CTATransit\CTATransit.csproj
+	EndGlobalSection
+EndGlobal

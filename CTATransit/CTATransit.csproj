@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
     <ProductVersion>10.0.0</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{610277B4-E543-4919-930D-84BAF9E899D9}</ProjectGuid>
+    <ProjectGuid>{32BCAB8F-98F5-4E34-8B25-234195EE9675}</ProjectGuid>
     <ProjectTypeGuids>{6BC8ED88-2882-458C-8E55-DFD12B67127B};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Exe</OutputType>
     <RootNamespace>CTATransit</RootNamespace>
@@ -65,18 +65,27 @@
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
-    <Compile Include="CTADataSource.cs" />
-    <Compile Include="Models\Arrival.cs" />
-    <Compile Include="Models\Route.cs" />
+    <Compile Include="API\CTATrainTrackerAPI.cs" />
     <Compile Include="ViewControllers\ArrivalViewController.cs" />
     <Compile Include="ViewControllers\ArrivalViewController.designer.cs">
       <DependentUpon>ArrivalViewController.cs</DependentUpon>
     </Compile>
+    <Compile Include="API\WebServiceAPIDelegate.cs" />
+    <Compile Include="API\WebServiceAPI.cs" />
+    <Compile Include="Delegates\ArrivalTableViewDelegate.cs" />
+    <Compile Include="DataSources\ArrivalTableViewDataSource.cs" />
+    <Compile Include="Models\CTATrainArrival.cs" />
+    <Compile Include="Models\CTATrainRoute.cs" />
+    <Compile Include="Models\CTATrainStation.cs" />
+    <Compile Include="Models\CTATrainStop.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
-    <Folder Include="Models\" />
     <Folder Include="ViewControllers\" />
+    <Folder Include="Models\" />
+    <Folder Include="API\" />
+    <Folder Include="Delegates\" />
+    <Folder Include="DataSources\" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="ViewControllers\ArrivalViewController.xib" />
