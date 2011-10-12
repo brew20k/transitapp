@@ -10,6 +10,10 @@
 	<string>CTATransit</string>
 	<key>CFBundleExecutable</key>
 	<string>CTATransit</string>
+	<key>CFBundleIconFiles</key>
+	<array>
+		<string>Icon_57</string>
+	</array>
 	<key>CFBundleIdentifier</key>
 	<string>com.yourcompany.ctatransit</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -34,6 +38,10 @@
 	<true/>
 	<key>MinimumOSVersion</key>
 	<string>4.3</string>
+	<key>UIDeviceFamily</key>
+	<array>
+		<string>1</string>
+	</array>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv6</string>

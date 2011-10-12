@@ -90,4 +90,9 @@
   <ItemGroup>
     <InterfaceDefinition Include="ViewControllers\ArrivalViewController.xib" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\StartupImage.png" />
+    <Content Include="Default.png" />
+    <Content Include="Images\Icon_57.png" />
+  </ItemGroup>
 </Project>
