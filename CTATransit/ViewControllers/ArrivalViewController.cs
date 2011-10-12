@@ -22,10 +22,10 @@ namespace CTATransit
 			
 			CTATrainTrackerAPI api = new CTATrainTrackerAPI();
 			
-			api.GetStationTraffic(this, "41320");
+			api.GetStationTraffic(this, "40040");
 			
 			this.RefreshButton.Clicked += (sender, e) => {
-				api.GetStationTraffic(this, "41320");
+				api.GetStationTraffic(this, "40040");
 			};
 						
 		}
